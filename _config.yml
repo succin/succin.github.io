@@ -29,11 +29,11 @@ twitter_username: shenmou
 friends: [
 	{
 		title: "Dapao",
-		href: "your fiend path"
+		href:
 	},
 	{
 		title: "Jiading",
-		href: "your friend path 2"
+		href:
 	}
 ]
 
@@ -91,6 +91,20 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# Use livere
+use_livere:
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id:
+# Google Analytics
+ga_track_id:             # Format: UA-xxxxxx-xx
+ga_domain:
+
+# Sidebar settings
+sidebar-about-description: 兴尽晚回舟，误入藕花深处
+sidebar-avatar: /img/icon.png    # use absolute URL
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -117,16 +131,15 @@ cdn-url:  # 你的CDN地址
 
 # Qiniu imageView2 API
 # More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
-clip-content: /img/qinglv.jpg
-clip-avatar: /img/qinglv.jpg
-clip-home-post-bg: /img/qinglv.jpg
+clip-content: /img/icon.png
+clip-avatar: /img/icon.png
+clip-home-post-bg: /img/icon.png
 
 # post default images
 post-default-img: /img/articleBg2.png
 post-default-img-mobile: /img/articleBg2.png
 
-# search api , set your custom key
-swiftype_key:
+
 
 
 # archive page title
